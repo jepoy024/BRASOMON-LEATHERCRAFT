@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ .display-2{
+     color: black;
+     font-family: Suntowns;
+     
+ }
+ 
+ 
+ @font-face{
+    src: url(../fonts/sample.otf);
+    font-family: Suntowns;
+}
+@font-face{
+    src: url(../fonts/Odachi\ 400.otf);
+    font-family: Odachi;
+}
+@font-face{
+    src: url(../fonts/MunichRegular-Y8x4.ttf);
+    font-family: Munich Regular;
+}
+@font-face{
+    src: url(../fonts/SketchFlow\ Print.ttf);
+    font-family: SketchFlow;
+}
+
+.carousel-slide{
+    color: black;
+    animation: linear 20s infinite;
+}
+h1{
+    color: black;
+    font-family: Suntowns;
+    font-weight: bolder;
+}
+.sm-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 6rem;
+    border-style: dotted;
+}
+.nav-link{
+    font-family: Munich Regular;
+    font-weight: bolder;
+    font-size: 30px;
+    
+}
+
+#slides{
+    color: black;
+}
+#pbtn{
+    width: 6rem;
+    border-radius: 3rem;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.navbar{
+    background-color: transparent;
+}
+.card{
+    display: grid;
+    grid-template-columns: 430px ;
+    grid-template-rows:500px 150px;
+    grid-template-areas: "image" "text" "title" "btn";
+    box-shadow: 5px 10px 7px -3px rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: transparent;
+
+}
+#des{
+    text-align: justify;
+    float: right;
+}
+.carousel-caption{
+    border: 0 inset;
+    background-color: rgba(0, 0, 0, 0.3) ; 
+    margin-top: 15%; 
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.footer{
+    text-align: center;
+    background-color: darkslategrey;
+    padding: 25px;
+}
+.right{
+    float: center;
+    padding: 25px;
+    margin: 25px;
+    color: white;
+}
+.dark{
+    padding: 0;
+    margin: 0;
+    
+}
+#logos{
+    height: 100px;
+    width: 100px;
+}
+.card-img-top{
+    padding: 10px;
+    border-radius: 15px;
+    grid-area: image;
+    width: 430px;
+    height: 500px;
+    float: center;
+
+}
+.card-text{
+    grid-area: text;
+    margin-bottom: 5px;
+}
+#card-btn{
+    grid-area: btn;
+}
+.card-body{
+    padding: 10px;
+}
+.col-4-social{
+    padding-left: 90px;
+    padding-top: 2px;
+    padding-right: 25px;
+}
+.col-md-4{
+   padding-left: 100px;
+   padding-right: 100px;
+
+}
+.button{
+    padding: 10px;
+    padding-top: 2px;
+}
+.button:hover{
+    transform: scale(1.2);
+    box-shadow: 5px;
+}
+.card:hover{
+    box-shadow: 5px 7px 9px -3px rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px #DAA520;
+    text-align: center;
+
+    transition: 0.3s ease-in-out;
+}
+.card-img{
+    width: 100%;
+    height: 100%;
+    padding: 10px auto;
+}
+.row{
+    padding: 25px;
+}
+#bwesit{
+    padding: 55px;
+}
+#prof{
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 20px;
+    font-weight: 800;
+}
+#user{
+    font-family: Munich Regular;
+    font-weight: 800;
+    font-size: 30px;
+}
